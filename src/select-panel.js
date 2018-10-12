@@ -36,7 +36,7 @@ class SelectPanel extends Component<Props, State> {
     state = {
         searchHasFocus: false,
         searchText: "",
-        focusIndex: 0,
+        focusIndex: 5,
     }
 
     selectAll = () => {
